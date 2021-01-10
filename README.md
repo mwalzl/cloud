@@ -43,7 +43,7 @@ psql -h <CLUSTER IP> -U snippet -W snippet
 
 Create the App
 ```bash
-oc new-app . --name snippet_app -e DATABASE_URL="postgres://snippet:keines@postgresql.myproject.svc.cluster.local:5432/snippet"
+oc new-app . --name snippetapp -e DATABASE_URL="postgres://snippet:keines@postgresql.myproject.svc.cluster.local:5432/snippet"
 ```
 
 ```bash
